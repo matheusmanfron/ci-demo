@@ -1,0 +1,9 @@
+name: CI
+
+on: push
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Se o Inter não vencer hoje, o bagulho vai ficar loco"
